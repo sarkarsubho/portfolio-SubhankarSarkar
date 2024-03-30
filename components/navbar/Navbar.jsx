@@ -24,7 +24,7 @@ const Navbar = () => {
       <MobileToggle />
 
       <div className="drop-shadow-lg bg-gray">
-        <Image src="/logo.png"  width={150} height={10} alt="logo" />
+        <Image src="/logo.png"  width={120} height={10} alt="logo" />
       </div>
 
       <NavbarMenu cls="hidden" />

@@ -35,7 +35,7 @@ const GithubStats = () => {
           <GitHubCalendar
             //   transformData={selectLastHalfYear}
             data-tooltip-id="calender"
-            username="spsanchore13"
+            username="sarkarsubho"
           >
             <ReactTooltip
               delayShow={10}
@@ -49,14 +49,14 @@ const GithubStats = () => {
 
         <div className="flex flex-col lg:flex-row justify-center items-center gap-3 mt-3">
           <img
-            src="https://github-readme-streak-stats.herokuapp.com?user=spsanchore13"
+            src="https://github-readme-streak-stats.herokuapp.com?user=sarkarsubho"
             alt="github streak"
           />
 
-          <img
-            src="https://github-readme-stats.vercel.app/api?username=spsanchore13"
+          {/* <img
+            src="https://github-readme-stats.vercel.app/api?username=sarkarsubho"
             alt="github stats"
-          />
+          /> */}
         </div>
       </div>
       <GithubSummery />

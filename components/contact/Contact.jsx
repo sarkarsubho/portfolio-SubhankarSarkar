@@ -7,11 +7,13 @@ const Contact = () => {
   return (
     <div id="contact" className="p-10">
       <h1 className="text-3xl text-center">
-        Let's <span className="text-teal-400">Connect</span>
+        Let's <span className="text-teal-400">Connect{"<--"} </span>
       </h1>
-
+      <h1 className="text-3xl ">
+        Contact <span className="text-teal-400">.info={"{"} </span>
+      </h1>
       <div className="flex flex-col gap-y-5 justify-center items-center p-10">
-        <h1 className="text-5xl">Shantilal Patliya</h1>
+        <h1 className="text-5xl">Subhankar Sarkar</h1>
         <p className="text-3xl">shantilalpatliya18@gmail.com</p>
         <p className="text-2xl">+91 9784102014</p>
 
@@ -44,6 +46,9 @@ const Contact = () => {
           </button>
         </div>
       </div>
+      <h1 className="text-3xl ">
+        <span className="pl-40 text-teal-400">{"};"} </span>
+      </h1>
     </div>
   );
 };
