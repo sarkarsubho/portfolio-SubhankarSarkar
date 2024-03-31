@@ -4,40 +4,40 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
-    title: "Full Stack Discord Clone",
+    title: "Full Stack Todo Application",
     description:
-      "An app like Discord for creating servers, channels, text/audio/video communication, managing members, and supporting one-on-one/group chats with Livkit SDK.",
+      "A todo application where the user can register himself and can log in along with the ability to create, read, update and Delete his todos and also can view the status of progress of all.",
     images: [
       {
-        url: "https://camo.githubusercontent.com/c6193fa3c4587ebfb70a30ed42ff8e23f42ed544cbce8bc8078cde07dd1f1d2b/68747470733a2f2f692e696d6775722e636f6d2f49324f487233512e706e67",
+        url: "https://camo.githubusercontent.com/f6d346fc0f1faf9b16b15b54772c81d3bd22c10df3fd83ad4a6c69f881f005c8/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a656e48707336594a54474a385a4b4c3151416d5447412e77656270",
       },
       {
-        url: "https://camo.githubusercontent.com/5a7bbe0e8cbcec48cf111ee662f220b0b232b946584a4cef4c8043f1379691f1/68747470733a2f2f692e696d6775722e636f6d2f37656378696c462e706e67",
+        url: "https://camo.githubusercontent.com/87e606760a8178200bea3cc49e663abb102a57a1cf5f5c3e081e962da7c964df/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a73684b5971714150544662303264755f4d637a4b5a772e77656270",
       },
       {
-        url: "https://camo.githubusercontent.com/ef6951afcbcec9fa53d3838afe1be783252ee3101306b27596766fcc31bbba49/68747470733a2f2f692e696d6775722e636f6d2f4a3368786766582e706e67",
+        url: "https://camo.githubusercontent.com/8dc6a397edae0bb99b22c4a0c6e79ff8687525310520aba0f1aa72ee903bbe03/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a63495a6453595552754243687857374f79386d4466672e77656270",
       },
       {
-        url: "https://camo.githubusercontent.com/7f44768a09529a0e479c75c5c9364a4aff4998f2b39d5be67323ff6546323137/68747470733a2f2f692e696d6775722e636f6d2f537869563674452e706e67",
+        url: "https://camo.githubusercontent.com/76cd6c3134fb2ef8acdd16b5b7430b2349964b1f9ff16df488d3b76668609b53/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a486a45363269546450576173776b52362d4d577269512e77656270",
       },
       {
-        url: "https://camo.githubusercontent.com/2c3a398d97e8627a9700c6452c0007574774a4ccc26ca008d9acddd722604c23/68747470733a2f2f692e696d6775722e636f6d2f45786d6c6352762e706e67",
+        url: "https://camo.githubusercontent.com/a9c4b35671e2924db96f3e6ce206acd6078b96e5cfd181d0bbb06e95343fa247/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f3732302f312a645a77435f785830454c644569424771526b435045772e77656270",
       },
     ],
     technologies: [
       "HTML",
       "CSS",
-      "Tailwind CSS",
-      "TypeScript",
+      "ChakraUI",
+      "JavaScript",
       "React.js",
-      "Next.js",
+      "Redux.js",
       "Node.js",
-      "Clerk Auth",
-      "Socket.IO",
-      "shadecn/ui",
+      "Express.js",
+      "MongoDB",
+      "mongoose",
     ],
-    github: "https://github.com/spsanchore13/next.js-discord-clone",
-    live: "https://next-js-discord-clone.vercel.app/",
+    github: "https://github.com/sarkarsubho/FullStackTodo",
+    live: "https://full-stack-todo-mauve.vercel.app/",
   },
   {
     id: 2,
