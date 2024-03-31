@@ -31,12 +31,12 @@ const Hero = () => {
     {
       title: "Resume",
       icon: <FileDown size="24px" className="hover:text-gray-400" />,
-      url: "/Shantilal_Resume.pdf",
+      url: "/SubhankarSarkarResume.pdf",
     },
   ];
 
   return (
-    <div className="mt-10 relative md:mt-0 md:h-screen flex flex-col  md:flex-col xl:flex-row justify-evenly items-center ">
+    <div className="mt-20 m-auto max-w-screen-xl  relative md:mt-0 md:h-screen flex flex-col  md:flex-col xl:flex-row justify-evenly items-center ">
         <div>
         <Image
           src="/Earth.gif"
@@ -47,14 +47,14 @@ const Hero = () => {
         />
       </div>
       <div className="flex flex-col justify-center gap-3 align-middle text-center">
-        <h2 className="text-blue-500 text-6xl">Hello World ;</h2>
-        <p className="p-2 text-3xl"> Hi, It's Me</p>
+        <h2 className="text-blue-500 text-5xl">Hello World ;</h2>
+        <p className="p-2 text-3xl">It's Me</p>
 
         <h1 className="text-6xl md:text-7xl font-extrabold relative text-transparent bg-gradient-to-r from-teal-500 from-10% via-teal-500 via-30% to-emerald-500 to-90% bg-clip-text">
           {"<Subhankar Sarkar>"}
         </h1>
-        <p className="p-2 text-2xl md:text-4xl">
-          Full Stack Software Engineer(React/Express)
+        <p className="p-2 text-2xl ">
+         A Full Stack Software Engineer(React/Express)  passionate about web technologies always open to learn new technologies.
         </p>
 
         <div className="flex flex-row gap-5 p-2 justify-center">

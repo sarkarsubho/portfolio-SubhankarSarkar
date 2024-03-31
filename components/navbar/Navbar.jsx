@@ -20,11 +20,11 @@ const Navbar = () => {
   console.log(theme);
 
   return (
-    <div className="w-full flex justify-between bg-[#c7c7c7] dark:bg-[#32323b] drop-shadow-lg items-center sticky top-0 py-2 md:px-8 z-30">
+    <div className="w-full flex justify-between bg-[#c7c7c7] dark:bg-[#32323b] items-center sticky top-0 py-2 md:px-8 z-30">
       <MobileToggle />
 
       <div className="drop-shadow-lg bg-gray">
-        <Image src="/logo.png"  width={120} height={10} alt="logo" />
+        <Image src="/logo.png" width={120} height={10} alt="logo" />
       </div>
 
       <NavbarMenu cls="hidden" />
@@ -33,10 +33,10 @@ const Navbar = () => {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger>
-              <a target="_blank" href="/Shantilal_Resume.pdf" download>
+              <a target="_blank" href="/SubhankarSarkarResume.pdf" download>
                 <Button
                   variant="icon"
-                  onClick={() => window.open("/Shantilal_Resume.pdf")}
+                  onClick={() => window.open("/SubhankarSarkarResume.pdf")}
                 >
                   <FileDown />
                 </Button>

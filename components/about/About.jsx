@@ -18,7 +18,7 @@ const About = () => {
         />
 
         <div className="lg:w-[50%]">
-          <p className="text-xl md:text-2xl tracking-widest">
+          <p className="text-xl md:text-2xl tracking-widest text-justify">
             Highly skilled Full Stack Developer with 1 year of experience in
             developing and managing web applications, including testing with
             Cypress and Jest. Proficient in both front-end and back-end
