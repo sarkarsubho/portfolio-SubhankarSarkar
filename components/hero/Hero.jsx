@@ -36,7 +36,7 @@ const Hero = () => {
   ];
 
   return (
-    <div className="mt-20 m-auto max-w-screen-xl  relative md:mt-0 md:h-screen flex flex-col  md:flex-col xl:flex-row justify-evenly items-center ">
+    <div className="mt-10 m-auto max-w-screen-xl  relative md:mt-0 md:h-screen flex flex-col  md:flex-col  justify-evenly items-center ">
         <div>
         <Image
           src="/Earth.gif"
