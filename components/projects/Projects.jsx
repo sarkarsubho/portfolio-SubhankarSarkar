@@ -4,6 +4,46 @@ import ProjectCard from "./ProjectCard";
 const projectsData = [
   {
     id: 1,
+    title: "Talkify full Stack Chat app",
+    description:
+      "It is a chat application, where you can find users an send a friend request to chat and share any type of files with them and they can see it in realtime. Also can create Groups to chat with multiple peoples with the add and remove member functionality. also the admin can delete the group. also available the online status on the current chat. also admin can see all the users and groups created.",
+    images: [
+      {
+        url: "https://i.imgur.com/PKTlyOI.png",
+      },
+      {
+        url: "https://i.imgur.com/UmduKgP.png",
+      },
+      {
+        url: "https://i.imgur.com/2R67vdG.png",
+      },
+      {
+        url: "https://i.imgur.com/Fqi0tz4.png",
+      },
+      {
+        url: "https://i.imgur.com/nZcRIEa.png",
+      },
+      {
+        url:"https://i.imgur.com/m8ub0vb.png"
+      }
+    ],
+    technologies: [
+      "HTML",
+      "CSS",
+      "ChakraUI",
+      "JavaScript",
+      "React.js",
+      "Redux.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "mongoose",
+    ],
+    github: "https://github.com/sarkarsubho/FullStackTodo",
+    live: "https://full-stack-todo-mauve.vercel.app/",
+  },
+  {
+    id: 2,
     title: "Full Stack Todo Application",
     description:
       "A todo application where the user can register himself and can log in along with the ability to create, read, update and Delete his todos and also can view the status of progress of all.",
@@ -40,7 +80,7 @@ const projectsData = [
     live: "https://full-stack-todo-mauve.vercel.app/",
   },
   {
-    id: 2,
+    id: 3,
     title: "Buffer Clone",
     description:
       "Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Twitter, Facebook, Instagram, Instagram Stories, Pinterest, and LinkedIn, as well as analyze their results and engage with their community",
@@ -67,7 +107,7 @@ const projectsData = [
     live: "https://gaping-spring-1880.vercel.app/",
   },
   {
-    id: 3,
+    id: 4,
     title: "Media.net replica",
     description: "The replica of the media.net company's homepage.",
     images: [
