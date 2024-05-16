@@ -37,24 +37,26 @@ const Hero = () => {
 
   return (
     <div className="mt-10 m-auto max-w-screen-xl  relative md:mt-0 md:h-screen flex flex-col  md:flex-col  justify-evenly items-center ">
-        <div>
+      <div >
         <Image
-          src="/Earth.gif"
-          width={250}
+          // src="/Earth.gif"
+          src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"
+          width={"50"}
           className="w-80 "
-          height={400}
+          height={200}
           alt="image"
         />
       </div>
       <div className="flex flex-col justify-center gap-3 align-middle text-center">
-        <h2 className="text-blue-500 text-5xl">Hello World ;</h2>
-        <p className="p-2 text-3xl">It's Me</p>
+        <h2 className="text-blue-500 text-5xl">Hello World It's Me ;</h2>
+        
 
         <h1 className="text-6xl md:text-7xl font-extrabold relative text-transparent bg-gradient-to-r from-teal-500 from-10% via-teal-500 via-30% to-emerald-500 to-90% bg-clip-text">
           {"<Subhankar Sarkar>"}
         </h1>
         <p className="p-2 text-2xl ">
-         A Full Stack Software Engineer(React/Express)  passionate about web technologies always open to learn new technologies.
+          A Full Stack Software Engineer(React/Express) passionate about web
+          technologies always open to learn new technologies.
         </p>
 
         <div className="flex flex-row gap-5 p-2 justify-center">
@@ -80,8 +82,6 @@ const Hero = () => {
           ))}
         </div>
       </div>
-
-    
     </div>
   );
 };
