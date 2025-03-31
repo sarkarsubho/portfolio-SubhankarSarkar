@@ -33,10 +33,10 @@ const Navbar = () => {
         <TooltipProvider>
           <Tooltip>
             <TooltipTrigger>
-              <a target="_blank" href="/SubhankarSarkarResume.pdf" download>
+              <a target="_blank" href="/Subhankar-Sarkar-Resume.pdf" download>
                 <Button
                   variant="icon"
-                  onClick={() => window.open("/SubhankarSarkarResume.pdf")}
+                  onClick={() => window.open("/Subhankar-Sarkar-Resume.pdf")}
                 >
                   <FileDown />
                 </Button>

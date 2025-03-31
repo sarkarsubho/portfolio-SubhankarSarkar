@@ -3,7 +3,110 @@ import ProjectCard from "./ProjectCard";
 
 const projectsData = [
   {
-    id: 1,
+    id: 5,
+    title: "Teenpatti online Multiplayer casino card game.",
+    description: `Developed and integrated a high-performance Teen Patti game into the main website, enabling seamless real-time betting with a shameless user experience. Engineered two dynamic gameplay modes:
+
+    Quick Play – Instantly join and compete with players worldwide.
+
+    Private Play – Create custom rooms and invite friends for an exclusive gaming session.
+
+    Leveraged Socket.io for real-time multiplayer interactions and Redis for ultra-low-latency data processing, ensuring a fast and immersive gaming experience. Built a scalable backend with Node.js, Express, and MongoDB, seamlessly handling concurrent users and betting transactions.`,
+    images: [
+      {
+        url: "https://i.imgur.com/ul0i90b.png",
+      },
+      {
+        url: "https://i.imgur.com/FW3UukS.png",
+      },
+      {
+        url: "https://i.imgur.com/l2TaruA.png",
+      },
+      {
+        url: "https://i.imgur.com/26OBoF0.png",
+      },
+      {
+        url: "https://i.imgur.com/t5hF2Yn.png",
+      },
+      {
+        url: "https://i.imgur.com/fe3lcDB.png",
+      },
+      {
+        url: "https://i.imgur.com/kZEcFJ2.png",
+      },
+      {
+        url: "https://i.imgur.com/NztDL1e.png",
+      },
+      {
+        url: "https://i.imgur.com/SBpfbZ6.png",
+      },
+      {
+        url: "https://i.imgur.com/uZYAU29.png",
+      },
+      {
+        url: "https://i.imgur.com/KEH00fj.png",
+      },
+      {
+        url: "https://i.imgur.com/4x3TnfN.png",
+      },
+      {
+        url: "https://i.imgur.com/2g924uE.png",
+      },
+    ],
+    technologies: [
+      "React",
+      "JavaScript",
+      "Socket.io",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Redis",
+    ],
+    github: null,
+    live: "http://beta.betbyheart.in/",
+  },
+  {
+    id: 4,
+    title: "Barrel Shooter, A web Game build with Phaser.js game engine.",
+    description:
+      "Barrel Shoot is a 2D shooting game built with React and Phaser.js, featuring dynamic gameplay and a strategic betting system. Developed a wallet-based wagering system, adaptive difficulty scaling, a progressive level system, and an admin panel for real-time monitoring. Optimized backend for secure player data and transactions.",
+    images: [
+      {
+        url: "https://i.imgur.com/3aP5ice.png",
+      },
+      {
+        url: "https://i.imgur.com/sxcunJr.png",
+      },
+      {
+        url: "https://i.imgur.com/TxmAJpE.png",
+      },
+      {
+        url: "https://i.imgur.com/xMbJCd1.png",
+      },
+      {
+        url: "https://i.imgur.com/VgKogPu.png",
+      },
+      {
+        url: "https://i.imgur.com/uhYPY3K.png",
+      },
+      {
+        url: "https://i.imgur.com/m6AxN77.png",
+      },
+    ],
+    technologies: [
+      "React",
+      "react router dom",
+      "JavaScript",
+      "Phaser.Js",
+      "MongoDB",
+      "Express",
+      "Node",
+    ],
+    github: "https://github.com/abhiwanSubhankar/barrelTest",
+    live: "https://barrel-test.vercel.app/",
+  },
+  {
+    id: 3,
     title: "Talkify full Stack Chat app",
     description:
       "It is a chat application, where you can find users an send a friend request to chat and share any type of files with them and they can see it in realtime. Also can create Groups to chat with multiple peoples with the add and remove member functionality. also the admin can delete the group. also available the online status on the current chat. also admin can see all the users and groups created.",
@@ -91,7 +194,7 @@ const projectsData = [
     live: "https://full-stack-todo-mauve.vercel.app/",
   },
   {
-    id: 3,
+    id: 1,
     title: "Buffer Clone",
     description:
       "Buffer is a software application for the web and mobile, designed to manage accounts in social networks, by providing the means for a user to schedule posts to Twitter, Facebook, Instagram, Instagram Stories, Pinterest, and LinkedIn, as well as analyze their results and engage with their community",
@@ -118,7 +221,7 @@ const projectsData = [
     live: "https://gaping-spring-1880.vercel.app/",
   },
   {
-    id: 4,
+    id: 0,
     title: "Media.net replica",
     description: "The replica of the media.net company's homepage.",
     images: [

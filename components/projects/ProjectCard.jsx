@@ -31,7 +31,7 @@ const ProjectCard = ({
   live,
 }) => {
   return (
-    <Card className="w-[400px] md:w-[350px] lg-[350px]  flex flex-col justify-between">
+    <Card className="w-[400px] md:w-[500px] lg-[500px]  flex flex-col justify-center">
       <CardHeader>
         <CardDescription>
           <CardTitle className="text-black dark:text-white cursor-pointer">
@@ -53,8 +53,12 @@ const ProjectCard = ({
           <CarouselContent>
             {images.map((image, index) => (
               <CarouselItem key={index}>
-                <div className="h-[200px]">
-                  <img src={image.url} alt={title} className="h-full w-full" />
+                <div className="h-[250px]">
+                  <img
+                    src={image.url}
+                    alt={title}
+                    className="h-full w-full object-contain"
+                  />
                 </div>
               </CarouselItem>
             ))}
@@ -77,7 +81,15 @@ const ProjectCard = ({
         <button onClick={() => window.open(live)}>
           <Link />
         </button>
-        <button onClick={() => window.open(github)}>
+        <button
+          onClick={
+            github
+              ? () => window.open(github)
+              : () => {
+                  alert("Internal Project GitHub Not Available.");
+                }
+          }
+        >
           <Github />
         </button>
       </CardFooter>

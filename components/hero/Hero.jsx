@@ -31,13 +31,13 @@ const Hero = () => {
     {
       title: "Resume",
       icon: <FileDown size="24px" className="hover:text-gray-400" />,
-      url: "/SubhankarSarkarResume.pdf",
+      url: "/Subhankar-Sarkar-Resume.pdf",
     },
   ];
 
   return (
     <div className="mt-10 m-auto max-w-screen-xl  relative md:mt-0 md:h-screen flex flex-col  md:flex-col  justify-evenly items-center ">
-      <div >
+      <div>
         <Image
           // src="/Earth.gif"
           src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif"
@@ -49,7 +49,6 @@ const Hero = () => {
       </div>
       <div className="flex flex-col justify-center gap-3 align-middle text-center">
         <h2 className="text-blue-500 text-5xl">Hello World It's Me ;</h2>
-        
 
         <h1 className="text-6xl md:text-7xl font-extrabold relative text-transparent bg-gradient-to-r from-teal-500 from-10% via-teal-500 via-30% to-emerald-500 to-90% bg-clip-text">
           {"<Subhankar Sarkar>"}
