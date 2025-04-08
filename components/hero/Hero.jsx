@@ -31,7 +31,7 @@ const Hero = () => {
     {
       title: "Resume",
       icon: <FileDown size="24px" className="hover:text-gray-400" />,
-      url: "/Subhankar-Sarkar-Resume.pdf",
+      url: "/SubhankarSarkar-fw15_579.pdf",
     },
   ];
 

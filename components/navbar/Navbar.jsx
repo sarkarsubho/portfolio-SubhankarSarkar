@@ -36,7 +36,7 @@ const Navbar = () => {
               <a target="_blank" href="/Subhankar-Sarkar-Resume.pdf" download>
                 <Button
                   variant="icon"
-                  onClick={() => window.open("/Subhankar-Sarkar-Resume.pdf")}
+                  onClick={() => window.open("/SubhankarSarkar-fw15_579.pdf")}
                 >
                   <FileDown />
                 </Button>
