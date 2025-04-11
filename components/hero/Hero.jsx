@@ -21,7 +21,7 @@ const Hero = () => {
     {
       title: "Linkedin",
       icon: <FaLinkedin size="24px" className="hover:text-gray-400" />,
-      url: "https://www.linkedin.com/in/dev-subhankar-sarka",
+      url: "https://www.linkedin.com/in/dev-subhankar-sarkar/",
     },
     {
       title: "Twitter",
